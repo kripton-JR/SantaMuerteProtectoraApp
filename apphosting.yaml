@@ -3,7 +3,7 @@ runtime: static
 instance_class: F1
 
 static:
-  source: public
+  source: Public
   headers:
     - glob: "**"
       headers:
