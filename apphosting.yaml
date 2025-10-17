@@ -2,5 +2,5 @@ runtime: static
 env: standard
 handlers:
   - url: /(.*)
-    static_files: public/\1
-    upload: public/(.*)
+    static_files: Public/\1
+    upload: Public/(.*)
