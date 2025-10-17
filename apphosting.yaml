@@ -1,12 +1,8 @@
 runtime: static
-
-instance_class: F1
+entrypoint: serve
 
 static:
   source: Public
-  headers:
-    - glob: "**"
-      headers:
-        - key: Cache-Control
-          value: "no-cache"
+  include:
+    - "**/*"
 
