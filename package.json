@@ -1,0 +1,12 @@
+{
+  "name": "santamuerteprotectoraapp",
+  "version": "1.0.0",
+  "description": "Sitio estático para Santa Muerte Protectora",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
