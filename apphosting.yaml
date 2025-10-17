@@ -1,8 +1,2 @@
-runtime: static
-entrypoint: serve
-
-static:
-  source: Public
-  include:
-    - "**/*"
-
+runtime: nodejs22
+entrypoint: npm start
