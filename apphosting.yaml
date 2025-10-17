@@ -1,6 +1,12 @@
 runtime: static
-env: standard
-handlers:
-  - url: /(.*)
-    static_files: Public/\1
-    upload: Public/(.*)
+
+instance_class: F1
+
+static:
+  source: public
+  headers:
+    - glob: "**"
+      headers:
+        - key: Cache-Control
+          value: "no-cache"
+
